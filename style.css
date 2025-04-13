@@ -29,7 +29,7 @@ body {
 .left-card,
 .intro-card,
 .right-card{
-  width: 400px;
+  width: 350px;
   max-width: 400px;
   display: flex;
   justify-content:;
@@ -38,7 +38,7 @@ body {
 
 .card {
   width: 500px;
-  height: 1000px;
+  height: 950px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-    height:100%;
+    height:80%;
   padding: 20px;
   font-family: "Verdana";
   color: #444;
@@ -67,7 +67,7 @@ body {
 
 .card img {
   width: 100%;
-  max-height: 300px;
+  max-height: 275px;
   object-fit: cover;}
 
 .footer {
