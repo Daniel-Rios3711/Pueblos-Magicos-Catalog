@@ -1,6 +1,5 @@
 import { pueblos } from './pueblos-data.js';
-
-// Gobal varibles :(
+// Gobal varibles
 let pueblo1;
 let pueblo2;
 let leftCard;
@@ -271,3 +270,11 @@ function sortByFounded(){
         sortedPueblos.sort((a,b) => a.founded-b.founded);
     showCards(sortedPueblos);
 }
+
+//fix for global issue between files (not defined at HTMLButtonElement... eror)
+window.filter = filter;
+window.handleSearch =  handleSearch;
+window.sort = sort;
+window.resetFilters = resetFilters;
+window.Nextpage = nextpage;
+window.PrevPage = prevPage;
