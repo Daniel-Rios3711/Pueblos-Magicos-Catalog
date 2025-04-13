@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
+      <meta charset = "UTF-8"/>
+    <title>Pueblos Mágicos</title>
+    <meta name="description" content="A catalog of Pueblos Magicos" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
   </head>
 
   <body>
     <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+      <h1 class="title">Pueblos Mágicos of Mexico</h1>
+      <a href="catalog.html" class="next-page-link">Go to Full Catalog</a>
     </header>
-    <div id="card-container"></div>
+    <div class="three-card-layout">
+        <div class="left-card">
+        </div>
+        <div class="intro-card"></div>
+        <div class="right-card">
+        </div>
+    </div>
     <div class="card" style="display: none">
       <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+        <h2>Pueblo Names</h2>
+        <img src="" alt="Pueblo image"/>
+       <p class="state"></p>
+       <p class="description"></p>
+       <p class="food"></p>
+       <p class="population"></p>
+       <p class="founded"></p>
+       <p class="knownFor"></p>
+       <p class="attractions"></p>
       </div>
     </div>
     <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
     </div>
   </body>
 </html>
