@@ -29,14 +29,14 @@ body {
 .left-card,
 .intro-card,
 .right-card{
-  width: 500px;
-  height: 900px;
+  width: 350px;
+  height: 875px;
   display: flex;
   justify-content:;
 }
 
 .card {
-  width: 500px;
+  width: 350px;
   height: 800px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -63,8 +63,9 @@ body {
 }
 
 .card img {
-  width: 100%;
-  max-height: 175px;
+  width: 80%;
+  height: 100%;
+  max-height: 120px;
   object-fit: cover;
 }
 
