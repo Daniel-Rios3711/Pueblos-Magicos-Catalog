@@ -21,16 +21,15 @@ body {
 .three-card-layout {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
-  gap: 5px;
-  margin: 20px auto;
+  gap: 20px;
+  margin: 15px auto;
 }
 .left-card,
 .intro-card,
 .right-card{
   display: flex;
-  justify-content: center;
 }
 
 .card {
@@ -65,7 +64,8 @@ body {
 
 .card img {
   display: block;
-  max-height: 140px;
+  width: 100%
+  height: 140px;
   object-fit: contain;
 }
 
