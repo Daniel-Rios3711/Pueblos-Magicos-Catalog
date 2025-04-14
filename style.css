@@ -33,7 +33,7 @@ body {
 }
 
 .card {
-  width: 425;
+  width: 425px;
   min-height: 700px;
   height: auto;
   border: 1px solid #ccc;
@@ -64,8 +64,8 @@ body {
 
 .card img {
   display: block;
-  width: 250px;
-  height: 140px;
+  width: 280px;
+  height: 1600px;
   object-fit: contain;
 }
 
