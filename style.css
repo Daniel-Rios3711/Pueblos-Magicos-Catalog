@@ -31,15 +31,14 @@ body {
 .right-card{
   width: 350px;
   max-width: 400px;
-  height 580px
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content:;
+  align-items: stretch;
 }
 
 .card {
   width: 500px;
-  height: 750px;
+  height: 950px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,7 +53,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-    height:80%;
+    height:70%;
   padding: 20px;
   font-family: "Verdana";
   color: #444;
@@ -68,8 +67,7 @@ body {
 
 .card img {
   width: 100%;
-  height: 225px;
-  max-height: 225px;
+  max-height: 300px;
   object-fit: cover;}
 
 .footer {
@@ -92,9 +90,7 @@ button {
   color: #333;
   font-size: 22px;
   cursor: pointer;
-  margin-bottom: 10px;
-  align-item: center;
-  text-align: center;
+  margin: 5px;
 }
 
 .refresh-btn {
