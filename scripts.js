@@ -276,5 +276,5 @@ window.filter = filter;
 window.handleSearch =  handleSearch;
 window.sort = sort;
 window.resetFilters = resetFilters;
-window.Nextpage = nextpage;
-window.PrevPage = prevPage;
+window.nextPage = nextPage;
+window.prevPage = prevPage;
