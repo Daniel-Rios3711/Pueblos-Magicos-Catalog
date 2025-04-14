@@ -23,7 +23,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
-  gap: 20px;
+  gap: 5px;
   margin: 20px auto;
 }
 .left-card,
