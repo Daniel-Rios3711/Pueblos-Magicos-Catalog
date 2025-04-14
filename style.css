@@ -29,13 +29,13 @@ body {
 .left-card,
 .intro-card,
 .right-card{
-  max-width: 300px;
+  width: 300px;
   display: flex;
   justify-content:;
 }
 
 .card {
-  width: 300px;
+  width: 500px;
   height: 1000px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -92,13 +92,16 @@ button {
     margin-bottom: 75px;
     background-color: #f5f5dc;
     color: #333;
-    border: 4px solid #ccc;
+    border: 3px solid #8A9A5B;
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #card-container {
