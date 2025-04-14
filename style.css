@@ -30,14 +30,12 @@ body {
 .intro-card,
 .right-card{
   width: 350px;
-  height: 935px;
+  height: 925px;
   display: flex;
   justify-content:;
 }
 
 .card {
-  width: 350px;
-  height: 575px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
