@@ -44,7 +44,7 @@ function showIntroCard() {
     
     introCard.querySelector("h2").textContent = "What Are Pueblos Magicos?";
     const introImage = introCard.querySelector("img");
-    introImage.src = "https://laneisgoingplaces.com/wp-content/uploads/2021/05/Logo_Pueblo_Magicos.jpg";
+    introImage.src = "https://i0.wp.com/larutadelaniebla.com/wp-content/uploads/2023/10/pueblos-magicos-de-puebla-portada-pweb.webp?fit=1024%2C719&ssl=1";
     introImage.alt = "Pueblos Magicos Lopgo";
     introCard.querySelector(".description").textContent = "Pueblos Mágicos are special towns designated by the Mexican government for their historical significance, cultural richness, natural beauty, or unique traditions. They offer travelers a glimpse into Mexico’s diverse heritage, blending indigenous, colonial, and modern influences.";
     introCard.querySelector(".food").textContent = "Growing up, I spent most of my summers and winters in Mexico with my family, and it’s a big part of who I am. I’ve gotten to experience the beauty of Mexico at a local level, not just as a tourist. This website is meant to show people the beautiful magic of the Pueblos Mágicos of Mexico — to show that it’s not just what you see on the news, but a complex country rich with culture, traditions, and diversity.";
@@ -148,11 +148,6 @@ function editCardContent(card,pueblo) {
 
 // This calls the addCards() function when the page is first loaded
 document.addEventListener("DOMContentLoaded", ShowFunctions);
-
-function removeLastCard() {
-  titles.pop(); // Remove last item in titles array
-  showCards(); // Call showCards again to refresh
-}
 
 //This function will pick a random pueblo
 function getrandomPueblo() {
