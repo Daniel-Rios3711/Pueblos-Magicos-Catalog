@@ -23,9 +23,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 5px;
   margin: 15px auto;
-  max-width: 1200px;
   width: 100%;
 }
 .left-card,
@@ -35,7 +34,7 @@ body {
 }
 
 .card {
-  width: 350px;
+  width: 275px;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
