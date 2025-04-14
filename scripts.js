@@ -1,5 +1,5 @@
 import { pueblos } from './pueblos-data.js';
-// Gobal varibles
+// Global varibles
 let pueblo1;
 let pueblo2;
 let leftCard;
@@ -28,7 +28,7 @@ function showCards(puebloList = pueblos) {
   }
 
 
-//This card informs users of what a Pueblo magico is and clones the same templateCard, so unused fields must be cleared.
+//This card informs users of what a Pueblo Magico is and clones the same templateCard, so unused fields must be cleared.
 function showIntroCard() {
     const templateCard = document.querySelector(".card");
     const introCard = templateCard.cloneNode(true); //makes a deep copy of templateCard and assigns it to introCard
@@ -99,7 +99,7 @@ function showTwoRandomPueblos(){
 
 // This function holds all my show functions, since document.addEventlistener only accepts one function as an argument
 function ShowFunctions(){
-    if(window.location.pathname.includes("catalog.html")){// 4 second page if I get a chance to implent it. show all of the pueblos in data list 10 by 10 with a previous and next button
+    if(window.location.pathname.includes("catalog.html")){ 
         showCards();
     }else{
         showTwoRandomPueblos();

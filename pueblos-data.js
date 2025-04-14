@@ -1,5 +1,5 @@
 
-//this data list hold all 177 pueblo magicos btween 31 Mexican states [sorry for the long data list]
+//this data list hold all pueblo magicos between 31 Mexican states [had to move here because data list got too long]
 export const pueblos = [
                  {
                      name: "Huasca de Ocampo",
