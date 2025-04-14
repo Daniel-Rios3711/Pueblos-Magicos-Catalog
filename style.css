@@ -18,20 +18,7 @@ body {
   color: white;
 }
 
-.three-card-layout {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  margin: 20px auto;
-}
-.left-card,
-.intro-card,
-.right-card{
-  display: flex;
-  justify-content:;
-}
+
 
 .card {
   width: clamp(260px, 30%, 300px);
