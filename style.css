@@ -5,7 +5,7 @@ body {
 }
 
 .main-header {
-  background-color: #8A9A5B;
+  background-color: #000000;
   padding-bottom: 10px;
 }
 
@@ -29,13 +29,13 @@ body {
 .left-card,
 .intro-card,
 .right-card{
-  width: 350px;
-  height: 925px;
   display: flex;
   justify-content:;
 }
 
 .card {
+    width: 350px;
+    height: 925px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
