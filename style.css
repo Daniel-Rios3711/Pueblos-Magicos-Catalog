@@ -6,13 +6,13 @@ body {
 
 .main-header {
   background-color: #8A9A5B;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 .title {
   text-align: center;
   margin: 0;
-  font-size: 5em;
+  font-size: 3em;
   font-family: "Helvetica";
   font-weight: normal;
   color: white;
