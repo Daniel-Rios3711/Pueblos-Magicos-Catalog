@@ -115,7 +115,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
 }
 
 #controls {
@@ -145,7 +145,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 7px;
+  margin: 2px;
 }
 
 .catalog-page .pagination {
@@ -167,11 +167,6 @@ button {
   flex-direction: column;
   justify-content: space-between;
   height: calc(100%-30px);
-}
-
-.catalog-page .card img {
-  max-height: 140px;
-  object-fit: cover;
 }
 
 .control-bar {
