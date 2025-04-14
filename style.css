@@ -90,19 +90,16 @@ button {
 }
 
 .refresh-btn {
-    margin-top: 10px;
-    margin-bottom: 75px;
+    position:absolute;
+    bottom:20px;
+    margin: 2px;
     background-color: #f5f5dc;
     color: #333;
     border: 3px solid #8A9A5B;
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 10px;
-    cursor: pointer;
     width: 100%;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
