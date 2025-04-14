@@ -240,4 +240,7 @@ button {
   display: inline-block;
 }
 
-
+.catalog-page .card img {
+  width: 250px;
+  height: 125px;
+}
