@@ -137,7 +137,7 @@ button {
 }
 
 .catalog-page .card {
-    width: clamp(220px, 20%, 300px);
+    width: clamp(220px, 20%, 250px);
   height: auto;
   min-height: 650px;
   font-size: 0.85rem;
