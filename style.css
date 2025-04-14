@@ -66,8 +66,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
-  height: 225px;
+  width: 400px;
+  height: 250px;
   object-fit: cover;
   object-position: center;
 }
