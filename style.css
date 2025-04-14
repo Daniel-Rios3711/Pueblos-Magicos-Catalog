@@ -33,8 +33,8 @@ body {
 }
 
 .card {
-  width: clamp(260px, 30%, 300px);
-  min-height: 650px;
+  width: clamp(375px, 375px, 375px);
+  min-height: 700px;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
