@@ -34,8 +34,9 @@ body {
 }
 
 .card {
-    width: 350px;
-    height: 700px;
+  width: clamp(220px, 30%, 300px);
+  min-height: 650px;
+  height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -43,11 +44,13 @@ body {
 }
 
 .card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  height: calc(100%-30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ flex-grow: 1;
   padding: 7px;
+  overflow-wrap: break-word;
+  word-break: break-word;
   font-family: "Verdana";
   font-size: 0.95rem;
   color: #181818;
@@ -123,15 +126,16 @@ button {
 }
 
 .catalog-page #card-container {
-  max-width: 95vw;
-  padding: 10px;
+  max-width: 100%;
+  padding: 10px 20px;
   justify-content: center;
   align-items: flex-start;
 }
 
 .catalog-page .card {
-  width: 220px;
-  height: 800px;
+    width: clamp(220px, 20%, 300px);
+  height: auto;
+  min-height: 650px;
   font-size: 0.85rem;
   font-family: "Verdana";
   display: flex;
@@ -231,4 +235,10 @@ button {
   line-height: 40px;
   text-decoration: none;
   display: inline-block;
+}
+
+@media (max-width: 1200px) {
+  .catalog-page .card {
+    width: clamp(220px, 30%, 280px);
+  }
 }
