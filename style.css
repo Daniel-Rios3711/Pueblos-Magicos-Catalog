@@ -37,8 +37,8 @@ body {
 }
 
 .card {
-  width: 500px;
-  height: 950px;
+  width: 330px;
+  height: 580px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -67,8 +67,9 @@ body {
 
 .card img {
   width: 100%;
-  max-height: 300px;
-  object-fit: cover;}
+  height: 160px;
+  object-fit: cover;
+}
 
 .footer {
   display: flex;
@@ -94,19 +95,17 @@ button {
 }
 
 .refresh-btn {
-    margin-top: auto;
-    margin-bottom: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #f5f5dc;
     color: #333;
     border: 3px solid #8A9A5B;
-    padding: 10px 15px;
+    padding: 10px 0;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     cursor: pointer;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
