@@ -29,8 +29,8 @@ body {
 .left-card,
 .intro-card,
 .right-card{
-  width: 400px;
-  height: 600px;
+  width: 500px;
+  height: 800px;
   display: flex;
   justify-content:;
 }
@@ -51,20 +51,20 @@ body {
   height: calc(100%-30px);
   padding: 7px;
   font-family: "Verdana";
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: #181818;
 }
 
 .card-content h2 {
   margin-top: 0;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   color: #181818;
 }
 
 .card img {
   width: 100%;
-  max-height: 170px;
+  max-height: 200px;
   object-fit: cover;
 }
 
