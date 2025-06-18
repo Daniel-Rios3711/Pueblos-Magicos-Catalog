@@ -195,7 +195,7 @@ export const pueblos = [
                    population: 18000,
                    notableFood: "Itacates",
                    attractions: ["Ex-Convent of San Juan Bautista", "Handicraft Market", "Museo del Tepoztlán"],
-                   image: "https://cdn.21online.lat/mexico/cache/awsTest1/rc/JwpRdhdG/uploads/498/propiedades/477903/63c98cd15daa3.jpg",
+                   image: "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/228000/228217-Morelos.jpg?impolicy=fcrop&w=512&h=288&q=medium",
                    founded: 1539,
                    description: "Tlayacapan is a charming colonial town known for its pottery, historic churches, and cultural traditions."
                  },
